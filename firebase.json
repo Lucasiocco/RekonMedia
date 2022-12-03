@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "RekonMedia/RekonMedia",
+    "public": "RekonMedia",
     "ignore": [
       "firebase.json",
       "**/.*",
