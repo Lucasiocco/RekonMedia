@@ -489,7 +489,7 @@ h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 45px;
+  font-size: 52px;
   font-weight: 700;
   line-height: 64px;
   color: #fff;
@@ -1585,43 +1585,3 @@ section {
 
 
 
-/*--------------------------------------------------------------
-# POLICY
---------------------------------------------------------------*/
-
-#containerPolicy {
-  padding: 100px 0px;
-}
-
-.heroTitlePolicy {
-  margin: 0;
-  font-size: 70px!important;
-  font-weight: 700;
-  line-height: 64px;
-  color: #fff;
-}
-
-.heroSubtitlePolicy {
-  color: rgba(255, 255, 255, 0.8);
-  margin: 10px 0 0 0;
-  font-size: 30px!important;
-}
-
-#heroPolicy {
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
-  background-size: cover;
-  padding-top: 150px;
-}
-
-.ulPolicy {
-  padding-right: 2rem;
-}
-
-@media (max-width: 1440px) {
-  #heroPolicy {
-    padding-top: 0px;
-  }
-  
-}
