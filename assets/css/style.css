@@ -919,6 +919,7 @@ section {
   font-size: 15px;
   color: #848484;
   margin-left: 60px;
+  margin-bottom: 0.4rem;
 }
 
 .features .image {
@@ -926,6 +927,9 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 400px;
+}
+.img-fluid {
+  max-width: 95%;
 }
 
 #container-features {
@@ -992,7 +996,7 @@ section {
 
 .modal-body li {
   list-style: none;
-  margin: 5px;
+  margin-bottom: 5px;
 }
 
 /* Add Animation */
@@ -1120,7 +1124,7 @@ section {
 .infoCard h1 {
   min-width: 80px;
   font-size: 1.2rem;
-  margin-top: 8px;
+  margin-top: 2px;
   font-weight: bold;
 }
 
@@ -1144,7 +1148,7 @@ section {
 }
 
 .redesTeam a {
-  margin: 4px;
+  margin-right: 5px;
 }
 
 .title {
