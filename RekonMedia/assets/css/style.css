@@ -736,6 +736,8 @@ section {
 .row {
   display: flex;
   justify-content: center;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .counts {
@@ -1593,8 +1595,17 @@ section {
 # POLICY
 --------------------------------------------------------------*/
 
+#heroContainerPolicy {
+  margin: 0px 262px;
+  padding: 0px;
+}
+
 #containerPolicy {
   padding: 100px 0px;
+}
+
+#heroText {
+  padding: 0px;
 }
 
 .heroTitlePolicy {
@@ -1608,7 +1619,7 @@ section {
 .heroSubtitlePolicy {
   color: rgba(255, 255, 255, 0.8);
   margin: 10px 0 0 0;
-  font-size: 30px!important;
+  font-size: 29px!important;
 }
 
 #heroPolicy {
@@ -1629,6 +1640,4 @@ section {
   }
   
 }
-
-
 
