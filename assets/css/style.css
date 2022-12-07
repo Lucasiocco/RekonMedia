@@ -148,8 +148,12 @@ h6 {
 }
 
 #headerNav {
-
   margin: 0;
+  padding: 0px;
+}
+
+.container-fluid {
+  padding: 0px;
 }
 
 #header.header-scrolled,
@@ -183,7 +187,7 @@ h6 {
 */
 .navbar {
   display: flex;
-  padding: 0 250px;
+  padding: 0px;
 }
 
 .navbar ul {
@@ -1593,8 +1597,16 @@ section {
 # POLICY
 --------------------------------------------------------------*/
 
+#headerNav {
+  margin: 300px;
+}
+
 #containerPolicy {
   padding: 100px 0px;
+}
+
+#heroText {
+  padding: 0px;
 }
 
 .heroTitlePolicy {
@@ -1608,7 +1620,7 @@ section {
 .heroSubtitlePolicy {
   color: rgba(255, 255, 255, 0.8);
   margin: 10px 0 0 0;
-  font-size: 30px!important;
+  font-size: 29px!important;
 }
 
 #heroPolicy {
@@ -1620,7 +1632,7 @@ section {
 }
 
 .ulPolicy {
-  padding-right: 2rem;
+  padding: 0px 0px;
 }
 
 @media (max-width: 1440px) {
