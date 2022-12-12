@@ -1123,9 +1123,9 @@ section {
   margin-left: 20px;
 }
 
-.infoCard h1 {
+.teamName {
   min-width: 80px;
-  font-size: 1.2rem;
+  font-size: 1.1rem!important;
   margin-top: 2px;
   font-weight: bold;
 }
