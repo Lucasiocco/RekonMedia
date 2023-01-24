@@ -36,6 +36,11 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
+h3 {
+  font-weight: 600;
+  font-size: 32px;
+  color: #2c4964;
+}
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -1296,6 +1301,36 @@ section {
     font-size: 13px;
   }
 }
+
+
+
+/*--------------------------------------------------------------
+# Audit
+--------------------------------------------------------------*/
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #5846f9;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
 
 /*--------------------------------------------------------------
 # Contact
