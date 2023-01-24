@@ -1334,6 +1334,15 @@ input[type=submit]:hover {
   opacity: 0.8;
 }
 
+#auditCont {
+  display: flex;
+  justify-content: center;
+}
+
+.auditDiv {
+  text-align: center;
+  width: 70%;
+}
 
 /*--------------------------------------------------------------
 # Contact
