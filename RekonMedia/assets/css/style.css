@@ -164,17 +164,20 @@ h3 {
 }
 
 .logoHeader {
-  width: 5%;
+  width: 20%;
 }
 
 @media (max-width: 1440px) {
   .logoHeader {
-    width: 8%;
+    width: 15%;
   }
 }
 @media (max-width: 600px) {
   .logoHeader {
     width: 15%;
+  }
+  .navbar{
+    flex-wrap: nowrap;
   }
 }
 
