@@ -494,27 +494,25 @@
 
     <section class="audit">
 
-      <form action="action_page.php"  method="post">
-        <div class="container" id="auditCont">
-          <div class="auditDiv">
-          <h3>Would you like a FREE AUDIT or us to contact you first?</h3>
-          <p>Submit this two simple details and we will get in touch shortly</p>
+      <form action="https://formsubmit.co/contact@rekonmedia.com" method="post" role="form" class="php-email-form">
+        <div class="row">
+          <div class="col-md-6 form-group">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="col-md-6 form-group mt-3 mt-md-0">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
           </div>
         </div>
-      
-        <div class="container" id="auditCont">
-          <div class="auditDiv">
-          <input type="text" placeholder="Name" name="name" required>
-          <input type="text" placeholder="Email address" name="mail" required>
-          </div>
+        <div class="form-group mt-3">
+          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
         </div>
-      
-        <div class="container" id="auditCont">
-          <div class="auditDiv">
-          <input type="submit" value="Submit">
-          </div>
+        <div class="my-3">
+          <div class="loading">Loading</div>
+          <div class="error-message"></div>
+          <div class="sent-message">Your message has been sent. Thank you!</div>
         </div>
-      </form>
+        <div class="text-center"><button type="submit">Send Message</button></div>
+    </form>
 
     </section>
 
@@ -621,6 +619,7 @@
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
