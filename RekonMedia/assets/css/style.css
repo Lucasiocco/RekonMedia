@@ -1311,37 +1311,44 @@ section {
 # Audit
 --------------------------------------------------------------*/
 
-input[type=text], input[type=submit] {
-  width: 100%;
-  padding: 12px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-input[type=checkbox] {
-  margin-top: 16px;
-}
-
-input[type=submit] {
-  background-color: #5846f9;
-  color: white;
-  border: none;
-}
-
-input[type=submit]:hover {
-  opacity: 0.8;
-}
-
 #auditCont {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+
+.auditDivTittle {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .auditDiv {
-  text-align: center;
-  width: 70%;
+  width: 800px;
+}
+
+.auditDiv input {
+  width: 100%;
+  margin: 5px 0px;
+}
+
+.btn-submit {
+  background-color: #5846f9;
+  border-radius: 4px;
+  color: #fff;
+  width: 90px;
+  height: 40px;
+  border: none;
+}
+.btn-submit:hover {
+  background-color: #7b27d8;
+}
+
+.input {
+  border-radius: 6px;
+  padding: 5px 10px;
+  border: 1.8px solid rgb(170, 170, 170);
 }
 
 /*--------------------------------------------------------------
@@ -1469,6 +1476,17 @@ input[type=submit]:hover {
   .contact .info-box p {
     font-size: 14px;
   }
+
+  .auditDiv {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .auditDiv {
+    width: 350px;
+  }
+
 }
 
 

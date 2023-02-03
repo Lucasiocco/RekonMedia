@@ -1324,9 +1324,13 @@ section {
   justify-content: center;
 }
 
+.auditDiv {
+  width: 800px;
+}
+
 .auditDiv input {
   width: 100%;
-  padding: 5px 0px;
+  margin: 5px 0px;
 }
 
 .btn-submit {
@@ -1336,6 +1340,15 @@ section {
   width: 90px;
   height: 40px;
   border: none;
+}
+.btn-submit:hover {
+  background-color: #7b27d8;
+}
+
+.input {
+  border-radius: 6px;
+  padding: 5px 10px;
+  border: 1.8px solid rgb(170, 170, 170);
 }
 
 /*--------------------------------------------------------------
@@ -1463,6 +1476,17 @@ section {
   .contact .info-box p {
     font-size: 14px;
   }
+
+  .auditDiv {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .auditDiv {
+    width: 350px;
+  }
+
 }
 
 
