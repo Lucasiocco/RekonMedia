@@ -724,6 +724,11 @@ section {
   top: 12px;
 }
 
+#imgAbout {
+  padding-left: 60px;
+  padding-right: 0px;
+}
+
 @media (max-width: 575px) {
   #aboutText {
     padding: 0px 25px;
