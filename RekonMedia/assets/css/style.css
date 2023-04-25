@@ -955,13 +955,30 @@ section {
   height: 370px;
 }
 
-@media screen and (max-width: 995px) {
+@media screen and (max-width: 1024px) {
   #features {
-    height: 1350px;
+    height: 500px;
   }
   #rowFeatures {
     display: flex;
     flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #features {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #features {
+    height: 1060px;
+  }
+
+  #d-flexId {
+    display: flex!important;
+    flex-direction: column;
   }
 }
 
